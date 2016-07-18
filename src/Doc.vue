@@ -11,13 +11,6 @@
 </template>
 
 <script>
-  import 'bz-semantic-ui-site'
-  import 'bz-semantic-ui-reset'
-  import 'bz-semantic-ui-container'
-
-  import 'bz-semantic-ui-table'
-  import 'bz-semantic-ui-divider'
-
   // import 'semantic-ui/dist/components/site.css'
   // import 'semantic-ui/dist/components/reset.css'
   // import 'semantic-ui/dist/components/container.css'

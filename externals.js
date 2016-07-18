@@ -1,7 +1,9 @@
 module.exports = {
   jquery: 'jQuery',
-  'semantic-ui-dimmer': 'semantic-ui-dimmer',
-  'semantic-ui-transition': 'semantic-ui-transition',
-  'semantic-ui-modal': 'semantic-ui-modal'
+  'bz-semantic-ui-site': 'bz-semantic-ui-site',
+  'bz-semantic-ui-reset': 'bz-semantic-ui-reset',
+  'bz-semantic-ui-container': 'bz-semantic-ui-container',
+  'bz-semantic-ui-table': 'bz-semantic-ui-table',
+  'bz-semantic-ui-divider': 'bz-semantic-ui-divider'
 }
 
