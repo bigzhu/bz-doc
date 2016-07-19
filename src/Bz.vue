@@ -58,20 +58,17 @@
         required: true
       },
       desc: {
-        type: String,
-        required: true
+        type: String
       },
       parm_desc: {
-        type: String,
-        required: true
+        type: String
       },
       parms: {
         type: Array,
         default: []
       },
       code: {
-        type: String,
-        required: true
+        type: String
       },
       call_back: {
         type: Function
