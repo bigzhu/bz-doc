@@ -1,4 +1,1 @@
-#! /bin/bash
-sh ./change_name.sh
-npm run build
-npm publish ./
+../bz-oauth2-button/publish.sh

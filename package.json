@@ -1,6 +1,6 @@
 {
   "name": "bz-doc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "bz-doc",
   "main": "dist/main.js",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.0.0",
-    "bz-semantic-ui-container": "^1.0.0",
+    "bz-semantic-ui-container": "*",
     "bz-semantic-ui-divider": "^1.0.0",
     "bz-semantic-ui-reset": "^1.0.8",
     "bz-semantic-ui-site": "^1.0.5",

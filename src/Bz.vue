@@ -39,6 +39,7 @@
       <i class='icon play'></i>
       运行
     </button>
+    <slot></solot>
   </div>
 </template>
 
@@ -49,6 +50,7 @@
 
   import 'bz-semantic-ui-table'
   import 'bz-semantic-ui-divider'
+  import 'bz-semantic-ui-button'
   export default {
     props: {
       name: {
