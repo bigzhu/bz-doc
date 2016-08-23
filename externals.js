@@ -1,5 +1,5 @@
 module.exports = {
-  jquery: 'jQuery',
+  jQuery: 'jQuery',
   'bz-semantic-ui-site': 'bz-semantic-ui-site',
   'bz-semantic-ui-reset': 'bz-semantic-ui-reset',
   'bz-semantic-ui-container': 'bz-semantic-ui-container',
