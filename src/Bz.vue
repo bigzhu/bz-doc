@@ -51,6 +51,7 @@
   import 'bz-semantic-ui-table'
   import 'bz-semantic-ui-divider'
   import 'bz-semantic-ui-button'
+  import toastr from 'toastr'
   export default {
     props: {
       name: {
@@ -81,6 +82,10 @@
       }
     },
     ready () {
+      window.onerror = function errorHandler (message, url, line_number) {
+        toastr.error(message)
+        return false
+      }
     },
     methods: {
       run: function () {
