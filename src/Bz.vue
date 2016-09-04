@@ -82,7 +82,7 @@
       }
     },
     ready () {
-      window.onerror = function errorHandler (message, url, line_number) {
+      window.onerror = (message, source, lineno, colno, error) => {
         toastr.error(message)
         return false
       }

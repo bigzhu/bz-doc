@@ -1,4 +1,5 @@
-
+<style lang=less>
+</style>
 
 <template>
   <doc :name="name"
@@ -59,8 +60,10 @@
       }
     },
     methods: {
+      call_back: function () {
+        throw new Error('test')
+      }
     }
   }
 </script>
-<style lang=less>
-</style>
+
