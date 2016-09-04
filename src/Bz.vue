@@ -83,7 +83,7 @@
     },
     ready () {
       window.onerror = (message, source, lineno, colno, error) => {
-        toastr.error(message)
+        toastr.error(error.message)
         return false
       }
     },
