@@ -86,6 +86,10 @@
         toastr.error(error.message)
         return false
       }
+      window.addEventListener("unhandledrejection", function (event) {
+          console.warn("WARNING: Unhandled promise rejection. Shame on you! Reason: "
+            + event.reason);
+      });
     },
     methods: {
       run: function () {
