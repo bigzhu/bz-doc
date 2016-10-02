@@ -9,11 +9,12 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 Object.keys(baseWebpackConfig.entry).forEach(function (name) {
   baseWebpackConfig.entry[name] = ['./build/dev-client'].concat(baseWebpackConfig.entry[name])
 })
+
 // dev时让externals失效
 baseWebpackConfig.externals = {}
 module.exports = merge(baseWebpackConfig, {
   module: {
-    loaders: utils.styleLoaders()
+    loaders: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap })
   },
   // eval-source-map is faster for development
   devtool: '#eval-source-map',

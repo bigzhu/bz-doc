@@ -1,6 +1,3 @@
-<style lang=less>
-</style>
-
 <template>
   <doc :name="name"
     :desc="desc"
@@ -67,3 +64,5 @@
   }
 </script>
 
+<style>
+</style>
