@@ -33,10 +33,10 @@
     "bz-semantic-ui-reset": "latest",
     "bz-semantic-ui-site": "latest",
     "bz-semantic-ui-table": "latest",
-    "toastr": "latest",
-    "vue": "latest"
+    "toastr": "latest"
   },
   "devDependencies": {
+    "vue": "latest",
     "less-loader": "^2.2.3",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
