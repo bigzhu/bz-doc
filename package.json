@@ -1,7 +1,13 @@
 {
   "name": "bz-doc",
   "version": "1.0.12",
-  "description": "bz-doc",
+  "description": "bz-demo",
+  "main": "dist/main.js",
+  "keywords": [
+    "vue",
+    "component",
+    "bigzhu"
+  ],
   "author": "bigzhu <vermiliondun@gmail.com>",
   "private": false,
   "scripts": {
