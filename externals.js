@@ -2,6 +2,7 @@ module.exports = {
   jQuery: 'jQuery',
   jquery: 'jQuery',
   toastr: 'toastr',
+  vue: 'Vue',
   'bz-semantic-ui-site': 'bz-semantic-ui-site',
   'bz-semantic-ui-reset': 'bz-semantic-ui-reset',
   'bz-semantic-ui-container': 'bz-semantic-ui-container',
