@@ -9,16 +9,6 @@
 </template>
 
 <script>
-  // import 'semantic-ui/dist/components/site.css'
-  // import 'semantic-ui/dist/components/reset.css'
-  // import 'semantic-ui/dist/components/container.css'
-
-  // import 'semantic-ui/dist/components/table.css'
-  // import 'semantic-ui/dist/components/divider.css'
-
-  // import 'semantic-ui/dist/components/button.css'
-  // import 'semantic-ui/dist/components/icon.css'
-
   import Doc from './Bz.vue'
   export default {
     components: {

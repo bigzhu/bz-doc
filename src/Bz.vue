@@ -27,14 +27,8 @@
 </template>
 
 <script>
-  import 'bz-semantic-ui-site'
-  import 'bz-semantic-ui-reset'
-  import 'bz-semantic-ui-container'
-
-  import 'bz-semantic-ui-table'
-  import 'bz-semantic-ui-divider'
-  import 'bz-semantic-ui-button'
-  import toastr from 'toastr'
+  import {initErrorHandle} from '../../lib_bz/functions/error'
+  // import toastr from 'toastr'
   export default {
     props: {
       name: {
@@ -64,15 +58,8 @@
       return {
       }
     },
-    ready () {
-      window.onerror = (message, source, lineno, colno, error) => {
-        toastr.error(error.message)
-        return false
-      }
-      window.addEventListener("unhandledrejection", function (event) {
-          console.warn("WARNING: Unhandled promise rejection. Shame on you! Reason: "
-            + event.reason);
-      });
+    mounted () {
+      initErrorHandle()
     },
     methods: {
       run: function () {
