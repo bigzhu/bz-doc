@@ -1,6 +1,6 @@
 {
   "name": "bz-doc",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "bz-doc",
   "main": "dist/main.js",
   "keywords": [
@@ -22,17 +22,10 @@
   ],
   "scripts": {
     "dev": "node build/dev-server.js",
-    "build": "node build/build.js",
+    "build": "node build/pack.js",
     "test": ""
   },
   "dependencies": {
-    "bz-semantic-ui-button": "latest",
-    "bz-semantic-ui-container": "latest",
-    "bz-semantic-ui-divider": "latest",
-    "bz-semantic-ui-reset": "latest",
-    "bz-semantic-ui-site": "latest",
-    "bz-semantic-ui-table": "latest",
-    "toastr": "latest"
   },
   "devDependencies": {
     "vue": "latest",
