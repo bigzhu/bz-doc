@@ -1,6 +1,6 @@
 {
   "name": "bz-doc",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "bz-doc",
   "main": "dist/main.js",
   "keywords": [
