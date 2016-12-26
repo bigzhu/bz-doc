@@ -27,13 +27,13 @@
           {parm: 'code', desc: '使用的代码'}
         ],
         code: `
-    <doc :name="name"
-    :desc="desc"
-    :parm_desc="parm_desc" 
-    :parms="parms"
-    :code="code"
-    :call_back="call_back"
-    ></doc>`,
+        <doc :name="name"
+        :desc="desc"
+        :parm_desc="parm_desc" 
+        :parms="parms"
+        :code="code"
+        :call_back="call_back"
+        ></doc>`,
         oauths: [
           'vk',
           'douban',

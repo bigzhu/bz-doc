@@ -27,7 +27,8 @@
 </template>
 
 <script>
-  import {initErrorHandle} from '../../../bz-lib/functions/error'
+  import initErrorHandle from 'bz-lib/functions/initErrorHandle'
+
   export default {
     props: {
       name: {
