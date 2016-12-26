@@ -1,6 +1,6 @@
 {
   "name": "bz-doc",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "bz-doc",
   "main": "src/Bz.vue",
   "keywords": [
@@ -26,8 +26,7 @@
     "build": "node build/pack.js",
     "test": ""
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.5.0",
     "babel-core": "^6.17.0",
