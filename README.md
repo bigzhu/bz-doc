@@ -1,6 +1,6 @@
-# bz-doc
+# bz-base
 
-> bz-doc
+> bz-base
 
 ## Build Setup
 
